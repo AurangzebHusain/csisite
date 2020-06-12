@@ -25,7 +25,7 @@ class Navbars extends Component {
         >
           <Container>
             <NavbarBrand href="#pablo" onClick={e => e.preventDefault()}>
-             <Link to="/"><h2>CSI</h2></Link> 
+             <Link to="/"><h2 className="text-secondary">CSI</h2></Link> 
             </NavbarBrand>
             <button
               aria-controls="navbar-primary"
@@ -66,7 +66,7 @@ class Navbars extends Component {
               </div>
               <Nav className="ml-lg-auto" navbar>
                 <NavItem>
-                  <NavLink tag={Link} to="/home">
+                  <NavLink tag={Link} to="/">
                   Home
                      <span className="sr-only">(current)</span>
                   </NavLink>
